@@ -1,0 +1,364 @@
+body {
+	background:right;
+	font-family:"Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
+	font-size:90%;
+	color:#968765;
+	margin:20px auto;
+	text-align:center;
+	line-height:1.4em;
+	width:80%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:1.5em;
+	letter-spacing:-0.06em;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+
+a img {
+	border:none;
+	text-decoration: none;
+	color:#000;
+
+}
+
+
+header, section, article, footer {
+	padding:10px 20px 20px;
+	margin:10px;
+	border:1px solid #e7e2d7;
+	border-radius:8px;
+	-webkit-border-radius:.8em;
+	-moz-border-radius:.8em;
+	background:#fff url(sprites.png) repeat-x 0px -120px;
+}
+
+header {
+	display:block;
+	position:relative;
+	text-align:left;
+}
+
+header img {
+	position:absolute;
+	left:20px;
+	top:18px;
+}
+
+header h1 {
+	font-size:2.3em;
+	text-transform:none;
+	letter-spacing:0em;
+	text-align:center;
+}
+
+header h2 {
+	margin:-10px 0px 20px;
+	font-size:1.3em;
+	text-align:center
+}
+
+nav {
+	text-align:center;
+	display:block;
+	color: #C17086;
+}
+
+nav ul {
+	padding:0px;
+	list-style-type:none;
+	display:inline;
+}
+
+nav li {
+	margin:0px 10px;
+	padding:0px;
+	list-style-type:none;
+	display:inline;
+}
+
+nav a:link, nav a:visited {
+	font-size:1.4em;
+	font-weight:normal;
+	color: #C17086;
+}
+
+section#left {
+	float:left;
+	width:178px;
+	text-align:left;
+}
+
+section#contact {
+	float:left;
+	width:178px;
+	text-align:left;
+}
+
+section h1, section h2, section h3, section h4, section h5, section h6 {
+	background:transparent url(sprites.png) no-repeat 0px -80px;
+	color:#fff;
+	padding:9px 10px 10px 10px;
+	margin:13px -10px;	
+	text-shadow:0 1px 0 #403232;
+}
+
+section ul {
+	padding:0px;
+	list-style:none;
+	border-top:1px solid #e7e2d7;
+	margin:14px 0px;
+	color: #EFEFEF;
+}
+
+section li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	color: #C17086;
+}
+
+section li a:link, section li a:visited {
+	float:left;
+	width:96%;
+	padding:3px 1%;
+	border-bottom:1px solid #e7e2d7;
+}
+
+section li a:hover {
+	background:#f2f1ec;
+	color: #999;
+}
+
+article {
+	float:right;
+	width:70%;
+	text-align:left;
+}
+
+article h1 {
+	background:transparent url(sprites.png) no-repeat 0px 0px;
+	color:#fff;
+	padding:7px 10px 12px 30px;
+	margin-left:-30px;
+	text-shadow:0 1px 0 #403232;
+}
+
+article h2, article h3, article h4, article h5, article h6  {
+	background:transparent url(sprites.png) no-repeat 0px -40px;
+	color:#fff;
+	padding:7px 10px 12px 30px;
+	margin-left:-30px;
+	text-shadow:0 1px 0 #913951;
+}
+
+article p:first-of-type {
+	font-family:Helvetica, Arial, serif;
+	text-transform:uppercase;
+	border-top:1px dotted #968765;
+	border-bottom:1px dotted #968765;
+	padding:10px 0px;
+	color:#c17086;
+}
+
+
+	
+.flr-logo-wall .flr-logo-unit {
+	border-right: 1px solid #DCDCDC;
+    float: left;
+    overflow: hidden;
+	border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+	border-right: 2px solid #CCC;
+    float: left;
+    height: 304px;
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+	left: -40px;
+    width: 98px;
+}
+
+.flr-wall-img{
+	border-color:#CCC;
+	border-width:0px 0px 2px 0px;
+	border-style:solid;
+	margin-top:-5px;
+	height:38px;
+	width:98px;
+
+	}
+
+a.flr-logo-link{
+	text-decoration:none;
+	list-style-position:inside;
+    padding:0px;
+	}
+	
+.flr-logo-unit{
+	list-style-type:none;
+	float:left;
+	}
+
+
+.floor .box-bd {
+     position:relative;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCC -moz-use-text-color #CCC #CCC;
+    border-style: solid none solid solid;
+    border-width: 3px 0 1px 2px;
+    height: 308px;
+    overflow: hidden;
+    padding-left: 0;
+
+	
+}
+
+.floor .box-hd .box-title {
+    left: 0;
+    width: 150px;
+}
+.floor .box-ft {
+    overflow: hidden;
+}
+.floor .box-ft-wrap {
+    margin-right: -11px;
+    overflow: hidden;
+    text-align: right;
+    width: 500px;
+}
+.floor .box-ft a {
+    border-right: 1px solid #E9E9E9;
+    color: #8B8B8B;
+    padding: 0 10px;
+}
+.floor .box-ft a:hover {
+    color: #FF4444;
+}
+
+.flr-fill-wall{
+    float:left;
+    overflow: hidden;
+    height: 304px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+	left: 70px;
+	}
+.flr-fill-unit{
+	list-style-type:none;
+
+	}
+.flr-fill-img {
+	margin-top:10px;
+	margin-left:20px;
+	border:1px solid #CCC;
+	margin-bottom:10px;
+	}
+
+	
+a.flr-fill-link{
+	margin-left:30px;
+
+		}
+	
+a.flr-fill-link:link   {   
+        color:black;   
+
+  }   
+  a.flr-fill-link:visited   {   
+        color:black;   
+
+  }   
+  a.flr-fill-link:hover   {   
+        color:black;   
+
+  }   
+a.flr-fill-link:active{ color:black;}
+label {
+	display:block;
+	font-weight:bold;
+}
+
+.flr-right-wall
+{   
+    float:left;
+	width:192px;
+	height:257px;
+	position:absolute;
+    top: 20px;
+	right:25px;
+}
+
+#left ul li a {
+	color: #C17086;
+}
+body,td,th {
+	color: #C17086;
+}
+.floor.box.floor1 .box-bd .flr-logo-wall div li p a em {
+	color: #000;
+}
+
+input, textarea {
+	font-family:"Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
+	font-size:90%;
+	color:#968765;
+	border:1px solid #e7e2d7;
+	border-radius:3px;
+	-webkit-border-radius:.3em;
+	-moz-border-radius:.3em;
+	padding:2px 4px;
+	width:168px;
+	background:#fff url(sprites.png) repeat-x 0px -120px;
+}
+
+input:focus, textarea:focus {
+	border:1px solid #c9c1af;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.hotCatNav .searchBar .inp{ width:135px !important; overflow:hidden;}
+.mainNav ul { height:37px; margin-top: 1px}
+.mainNav li { height:37px !important;}
+.mainNav .firstNav a.exable, .mainNav .firstNav .index a{ height:29px}
+.header .mainNav{ height: 38px;}
+}
+
+button {
+	float:right;
+	font-family:Georgia, times, serif;
+	font-size:1.2em;
+	color:#fff;
+	font-style:italic;
+	border:1px solid #c17086;
+	border-radius:3px;
+	-webkit-border-radius:.3em;
+	-moz-border-radius:.3em;
+	padding:3px 12px;
+	background:#bd1341 url(sprites.png) repeat-x -250px -82px;
+	cursor:pointer;
+}
+
+button:hover {
+	background-position:-350px -82px
+}
+
+footer {
+	clear:both;
+	display:block;
+	width:94%;
+	position:relative;
+	text-align:left;
+	font-size: 100%;
+}
+
+footer a {
+	margin:0px 5px;
+}
